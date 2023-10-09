@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TwoActivities"
         tools:targetApi="31">
+        <activity android:name=".secondActivity"
+            android:label = "secondActivity"
+            android:parentActivityName=".MainActivity">
+        <!-- "meta-data" de l'Activité parent pour prendre en charge la version 4.0 et les versions antérieures -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=
+                "com.example.enetcom.twoactivities.MainActivity" />
+        </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">
