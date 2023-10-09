@@ -2,4 +2,6 @@
     <string name="app_name">twoActivities</string>
     <string name="activity2_name">twoActivities</string>
     <string name="button_main" />
+    <string name="text_header">Message Received</string>
+
 </resources>
